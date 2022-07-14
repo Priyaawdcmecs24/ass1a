@@ -1,0 +1,12 @@
+def mostfrequent(list):
+    counter=0
+    num =list[0]
+    for i in list:
+        fre=list.count(i)
+        if(fre>counter):
+            counter=fre
+            num = i
+    return num
+list = [2,2,3,4]
+
+print(mostfrequent(list))
