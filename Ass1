@@ -1,0 +1,16 @@
+a= 60
+b= 13
+c= 0
+ 
+d=a&b
+print(" value of d is", d)
+e=a|b
+print("value of e is ",e)
+f=a^b
+print("value of f is",f)
+g=~a
+print ("value of g is",g)
+h=a<<2
+print(" value of h is",h)
+i=a>>2
+print("value of i is",i)
